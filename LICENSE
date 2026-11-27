@@ -1,0 +1,105 @@
+Copyright (c) 2026 dareart03
+
+Настоящий проект (далее — «Проект») представляет собой модифицированную
+версию примера, распространяемого вместе с EasyAR SDK.
+(This Project is a modified version of a sample distributed with the EasyAR SDK.)
+
+-------------------------------------------------------------------------------
+1. АВТОРСКИЕ ПРАВА НА ИЗМЕНЕНИЯ
+   COPYRIGHT OF MODIFICATIONS
+-------------------------------------------------------------------------------
+Авторские права на оригинальный код примера, библиотеки EasyAR SDK, а также
+на товарные знаки «EasyAR» и «VisionStar» принадлежат компании
+VisionStar Information Technology (Shanghai) Co., Ltd. и регулируются
+условиями лицензионного соглашения EasyAR (EasyAR License Agreement),
+доступного на официальном сайте easyar.com.
+
+(Copyright in the original sample code, the EasyAR SDK libraries, and the
+"EasyAR" and "VisionStar" trademarks belongs to VisionStar Information
+Technology (Shanghai) Co., Ltd. and is governed by the EasyAR License
+Agreement available at easyar.com.)
+
+Авторские права на изменения, дополнения и новый код, созданные автором
+Проекта, принадлежат dareart03 и распространяются на условиях,
+указанных в разделе 2.
+
+(Copyright in the modifications, additions, and new code created by the
+Project author belongs to dareart03 and is distributed under
+the terms set out in Section 2.)
+
+-------------------------------------------------------------------------------
+2. ЛИЦЕНЗИЯ НА ИЗМЕНЕНИЯ АВТОРА (MIT)
+   LICENSE FOR THE AUTHOR'S MODIFICATIONS (MIT)
+-------------------------------------------------------------------------------
+Код, созданный автором Проекта (изменения и дополнения), распространяется
+под лицензией MIT:
+(The code created by the Project author (modifications and additions) is
+distributed under the MIT License:)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+3. ОГРАНИЧЕНИЯ, СВЯЗАННЫЕ С EasyAR SDK
+   RESTRICTIONS RELATED TO THE EasyAR SDK
+-------------------------------------------------------------------------------
+3.1. Настоящая лицензия НЕ распространяется на EasyAR SDK, его библиотеки,
+бинарные файлы, ресурсы и товарные знаки. Их использование регулируется
+исключительно EasyAR License Agreement.
+
+     (This license does NOT apply to the EasyAR SDK, its libraries, binary
+     files, resources, or trademarks. Their use is governed solely by the
+     EasyAR License Agreement.)
+
+3.2. Запрещается удалять, скрывать или изменять уведомления об авторских
+правах, водяные знаки и надпись «Powered by EasyAR», если это требуется
+условиями используемой вами версии EasyAR SDK.
+
+     (You may not remove, hide, or alter copyright notices, watermarks, or
+     the "Powered by EasyAR" attribution if required by the terms of the
+     EasyAR SDK version you use.)
+
+3.3. Проект не является официальным продуктом EasyAR и не одобрен
+компанией VisionStar.
+
+     (This Project is not an official EasyAR product and is not endorsed by
+     VisionStar.)
+
+3.4. Ответственность за соблюдение условий EasyAR License Agreement,
+включая ограничения на коммерческое использование для бесплатных
+версий, несёт пользователь Проекта.
+
+     (Compliance with the EasyAR License Agreement, including restrictions
+     on commercial use for free versions, is the responsibility of the user
+     of this Project.)
+
+-------------------------------------------------------------------------------
+4. ОТСУТСТВИЕ ГАРАНТИЙ
+   NO WARRANTY
+-------------------------------------------------------------------------------
+Проект предоставляется «как есть», без каких-либо гарантий. Автор не несёт
+ответственности за любой ущерб, возникший в результате использования Проекта.
+
+(The Project is provided "as is", without warranty of any kind. The author
+shall not be liable for any damages arising from the use of the Project.)
+
+-------------------------------------------------------------------------------
+EasyAR является товарным знаком VisionStar Information Technology
+(Shanghai) Co., Ltd.
+(EasyAR is a trademark of VisionStar Information Technology (Shanghai)
+Co., Ltd.)

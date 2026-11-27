@@ -1,0 +1,48 @@
+<resources>
+<string name="app_name">HelloAR</string>
+
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+
+<string name="hud_moves">Ходы: %1$d</string>
+<string name="menu_title">AR-пазл</string>
+<string name="button_start">Запустить AR</string>
+<string name="button_settings">Настройки</string>
+<string name="button_history">История</string>
+<string name="button_back">Назад</string>
+<string name="button_clear">Очистить</string>
+<string name="button_cancel">Отмена</string>
+<string name="settings_title">Настройки</string>
+<string name="settings_grid">Размер пазла</string>
+<string name="settings_grid_3">3 × 3</string>
+<string name="settings_grid_4">4 × 4</string>
+<string name="settings_grid_5">5 × 5</string>
+<string name="settings_dim">Затемнение под плитками</string>
+<string name="settings_dim_value">%1$d%%</string>
+<string name="settings_to_menu">В главное меню</string>
+<string name="button_hint">Подсказка</string>
+<string name="button_shuffle">Перемешать</string>
+<string name="hud_find">Наведите камеру на картинку</string>
+<string name="button_photo">Фото</string>
+<string name="photo_saved">Фото сохранено</string>
+<string name="photo_failed">Не удалось сохранить фото</string>
+<string name="result_title">Пазл собран!</string>
+<string name="result_stats">Время: %1$s\nХодов: %2$d</string>
+<string name="result_stats_new_record">Время: %1$s\nХодов: %2$d\n🏆 Новый рекорд!</string>
+<string name="collection_record_line">%1$d×%1$d — лучшее время: %2$s · минимум ходов: %3$d</string>
+<string name="button_again">Играть ещё</string>
+<string name="history_title">История</string>
+<string name="history_empty">Пока пусто. Собери пазл или сделай фото.</string>
+<string name="history_result">Пазл собран</string>
+<string name="history_photo">Фото</string>
+<string name="history_photo_solved">Фото собранного пазла</string>
+<string name="history_details">%1$s · %2$d×%2$d · %3$s · ходов: %4$d</string>
+<string name="history_clear_confirm">Удалить всю историю и сохранённые в приложении фото? Копии в галерее останутся.</string>
+<string name="button_collection">Коллекция</string>
+<string name="collection_title">Коллекция</string>
+<string name="collection_progress">Собрано: %1$d из %2$d</string>
+<string name="collection_empty">Пока нет пазлов с фигурками.</string>
+<string name="collection_locked">\?\?\?</string>
+    <string name="no_record_time">\?\?:\?\?</string>
+    <string name="no_record_moves">\?</string>
+</resources>

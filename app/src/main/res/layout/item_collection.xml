@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#2B2B2B"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/collection_image"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/collection_title" />
+
+    <TextView
+        android:id="@+id/collection_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_record_table"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="Таблица рекордов"
+        android:textAllCaps="false"
+        android:textSize="11sp"
+        android:visibility="visible" />
+
+</LinearLayout>

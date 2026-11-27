@@ -6,7 +6,15 @@
 //
 //================================================================================================================================
 
-package cn.easyar.samples.helloar
+package cn.easyar.samples.helloar.ui
+
+import cn.easyar.samples.helloar.ar.*
+import cn.easyar.samples.helloar.puzzle.*
+import cn.easyar.samples.helloar.model.*
+import cn.easyar.samples.helloar.render.*
+import cn.easyar.samples.helloar.data.*
+import cn.easyar.samples.helloar.util.*
+import cn.easyar.samples.helloar.R
 
 import android.app.Activity
 import android.content.Intent

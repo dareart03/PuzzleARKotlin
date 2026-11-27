@@ -1,4 +1,11 @@
-package cn.easyar.samples.helloar
+package cn.easyar.samples.helloar.util
+
+import cn.easyar.samples.helloar.ui.*
+import cn.easyar.samples.helloar.ar.*
+import cn.easyar.samples.helloar.puzzle.*
+import cn.easyar.samples.helloar.model.*
+import cn.easyar.samples.helloar.render.*
+import cn.easyar.samples.helloar.data.*
 
 // Небольшой разборщик JSON (объекты - Map, массивы - List, числа - Double, строки, Boolean, null).
 // Нужен для чтения заголовка GLB; свой, чтобы его можно было проверять обычными JVM-тестами.

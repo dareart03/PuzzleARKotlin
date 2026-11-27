@@ -1,4 +1,11 @@
-package cn.easyar.samples.helloar
+package cn.easyar.samples.helloar.puzzle
+
+import cn.easyar.samples.helloar.ui.*
+import cn.easyar.samples.helloar.ar.*
+import cn.easyar.samples.helloar.model.*
+import cn.easyar.samples.helloar.render.*
+import cn.easyar.samples.helloar.data.*
+import cn.easyar.samples.helloar.util.*
 
 // Необязательные настройки пазла из assets/puzzles/<имя>/info.txt, по одной "ключ=значение" в строке:
 //   title=Фурина                      название для коллекции

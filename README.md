@@ -8,7 +8,7 @@
 
 Для тестирования наведите камеру на картинку ниже и соберите пазл: 
 
-![Картинка для теста](app\src\main\assets\puzzles\test\target.jpg)
+![Картинка для теста](app/src/main/assets/puzzles/test/target.jpg)
 
 ## Возможности
 

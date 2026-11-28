@@ -27,7 +27,7 @@ import java.util.concurrent.Executors
 class CollectionActivity : Activity() {
 
     companion object {
-        private const val SILHOUETTE_COLOR = 0xFF1B2430.toInt()
+        private const val SILHOUETTE_COLOR = 0xFF302B40.toInt()
 
         fun open(from: Activity) {
             from.startActivity(Intent(from, CollectionActivity::class.java))

@@ -38,6 +38,7 @@ class HistoryActivity : Activity() {
     private lateinit var fullPhoto: ImageView
     private var items: List<HistoryEntry> = emptyList()
     private val thumbnails = LruCache<String, Bitmap>(30)
+    private val puzzleImages by lazy { PuzzleCatalog.load(assets).associateBy { it.id } }
     private val dateFormat = SimpleDateFormat("dd.MM.yyyy HH:mm", Locale.getDefault())
 
     private fun formatTime(ms: Long): String {
@@ -58,6 +59,21 @@ class HistoryActivity : Activity() {
         return bitmap
     }
 
+    private fun puzzleThumbnail(targetId: String): Bitmap? {
+        val path = puzzleImages[targetId]?.targetPath ?: return null
+        val cacheKey = "asset:$path"
+        thumbnails.get(cacheKey)?.let { return it }
+
+        val options = BitmapFactory.Options().apply { inSampleSize = 4 }
+        val bitmap = try {
+            assets.open(path).use { BitmapFactory.decodeStream(it, null, options) }
+        } catch (_: Exception) {
+            null
+        }
+        if (bitmap != null) thumbnails.put(cacheKey, bitmap)
+        return bitmap
+    }
+
     private inner class HistoryAdapter : BaseAdapter() {
         override fun getCount(): Int = items.size
 
@@ -70,9 +86,14 @@ class HistoryActivity : Activity() {
             val entry = items[position]
             val thumb = view.findViewById<ImageView>(R.id.history_thumb)
             val path = entry.photoPath
-            if (entry.kind == HistoryEntry.KIND_PHOTO && path != null) {
+            val image = if (entry.kind == HistoryEntry.KIND_PHOTO) {
+                path?.let { thumbnail(it) }
+            } else {
+                puzzleThumbnail(entry.target)
+            }
+            if (image != null) {
                 thumb.visibility = View.VISIBLE
-                thumb.setImageBitmap(thumbnail(path))
+                thumb.setImageBitmap(image)
             } else {
                 thumb.visibility = View.GONE
                 thumb.setImageDrawable(null)
@@ -118,7 +139,10 @@ class HistoryActivity : Activity() {
         list.emptyView = findViewById(R.id.text_empty)
         list.adapter = adapter
         list.setOnItemClickListener { _, _, position, _ ->
-            showPhoto(items[position])
+            val entry = items[position]
+            if (entry.kind == HistoryEntry.KIND_PHOTO) {
+                showPhoto(entry)
+            }
         }
 
         findViewById<View>(R.id.button_back).setOnClickListener {

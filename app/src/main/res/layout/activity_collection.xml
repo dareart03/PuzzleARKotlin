@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#202020"
+    android:background="@color/colorBackground"
     android:paddingStart="16dp"
     android:paddingTop="16dp"
     android:paddingEnd="16dp"
@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/collection_title"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorTextPrimary"
         android:textSize="28sp" />
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:textColor="#BBBBBB"
+        android:textColor="@color/colorTextSecondary"
         android:textSize="16sp" />
 
     <FrameLayout
@@ -49,7 +49,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/collection_empty"
-            android:textColor="#BBBBBB"
+            android:textColor="@color/colorTextSecondary"
             android:textSize="16sp" />
     </FrameLayout>
 

@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#202020">
+    android:background="@color/colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +24,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/history_title"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/colorTextPrimary"
                 android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button_clear"
-                style="?android:attr/buttonStyleSmall"
+                style="@style/ClearActionButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/button_clear" />
@@ -45,8 +45,8 @@
                 android:id="@+id/list_history"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:divider="#404040"
-                android:dividerHeight="1dp" />
+                android:divider="@android:color/transparent"
+                android:dividerHeight="12dp" />
 
             <TextView
                 android:id="@+id/text_empty"
@@ -55,7 +55,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="@string/history_empty"
-                android:textColor="#BBBBBB"
+                android:textColor="@color/colorTextSecondary"
                 android:textSize="16sp" />
         </FrameLayout>
 

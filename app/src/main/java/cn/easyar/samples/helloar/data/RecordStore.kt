@@ -56,6 +56,6 @@ class RecordStore(private val prefs: SharedPreferences) {
     }
 
     /** Рекорды для всех размеров сетки, где игрок уже проходил этот пазл. */
-    fun summary(target: String, grids: IntRange = 3..5): List<Pair<Int, PuzzleRecord>> =
+    fun summary(target: String, grids: IntRange = 3..6): List<Pair<Int, PuzzleRecord>> =
         grids.mapNotNull { grid -> get(target, grid)?.let { grid to it } }
 }

@@ -47,12 +47,14 @@ class SettingsActivity : Activity() {
         radio.check(when (grid) {
             4 -> R.id.radio_grid_4
             5 -> R.id.radio_grid_5
+            6 -> R.id.radio_grid_6
             else -> R.id.radio_grid_3
         })
         radio.setOnCheckedChangeListener { _, checkedId ->
             grid = when (checkedId) {
                 R.id.radio_grid_4 -> 4
                 R.id.radio_grid_5 -> 5
+                R.id.radio_grid_6 -> 6
                 else -> 3
             }
             save()

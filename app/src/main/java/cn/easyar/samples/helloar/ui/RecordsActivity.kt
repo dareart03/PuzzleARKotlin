@@ -68,12 +68,13 @@ class RecordsActivity : Activity() {
         val imageView = findViewById<ImageView>(R.id.records_character_image)
         titleView.text = puzzleId.replaceFirstChar { it.uppercase() }
 
-        // Рекорды показываются для всех трёх размеров, даже если пазл ещё не проходили.
+        // Рекорды показываются для всех четырёх размеров, даже если пазл ещё не проходили.
         val recordStore = RecordStore.forContext(this)
         val rows = listOf(
             Triple(3, R.id.record_3_time, R.id.record_3_moves),
             Triple(4, R.id.record_4_time, R.id.record_4_moves),
-            Triple(5, R.id.record_5_time, R.id.record_5_moves)
+            Triple(5, R.id.record_5_time, R.id.record_5_moves),
+            Triple(6, R.id.record_6_time, R.id.record_6_moves)
         )
 
         for ((grid, timeId, movesId) in rows) {

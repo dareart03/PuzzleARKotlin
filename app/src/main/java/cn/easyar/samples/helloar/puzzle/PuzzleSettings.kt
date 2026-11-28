@@ -16,7 +16,7 @@ class PuzzleSettings(
 ) {
     companion object {
         const val MIN_GRID = 3
-        const val MAX_GRID = 5
+        const val MAX_GRID = 6
         const val DEFAULT_GRID = 3
         const val DEFAULT_DIM = 0.75f
 
